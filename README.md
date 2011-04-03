@@ -22,17 +22,17 @@ How to Install:
 
 		
 Using the Drone Client:
-	- There are two types of use for the Drone client. 
-		1. Simple command line input by the user. Example:
-			$ takeoff
-			$ pitch -.3
-			$ gaz .2
-			$ pitch 0
-			$ gaz 0
-			$ land
-		2. ARDrone scripts which follow the same format as the command line input but also include a **wait** command. An example script **sample.ard**
-		is included here as well. To execute the script you simply add it as an argument:
-			$ ./DroneClient sample.ard
+- There are two types of use for the Drone client. 
+	1. Simple command line input by the user. Example:
+		$ takeoff
+		$ pitch -.3
+		$ gaz .2
+		$ pitch 0
+		$ gaz 0
+		$ land
+	2. ARDrone scripts which follow the same format as the command line input but also include a **wait** command. An example script **sample.ard**
+	is included here as well. To execute the script you simply add it as an argument:
+		$ ./DroneClient sample.ard
 
 
 How it works:
