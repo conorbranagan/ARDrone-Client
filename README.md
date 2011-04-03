@@ -30,9 +30,9 @@ Using the Drone Client:
 			$ pitch 0
 			$ gaz 0
 			$ land
-		2. ARDrone scripts which follow the same format as the command line input but also include a **wait** command. An example script **sample1.ard**
+		2. ARDrone scripts which follow the same format as the command line input but also include a **wait** command. An example script **sample.ard**
 		is included here as well. To execute the script you simply add it as an argument:
-			$ ./DroneClient sample1.ard
+			$ ./DroneClient sample.ard
 
 
 How it works:
